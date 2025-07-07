@@ -1,0 +1,92 @@
+#h1{
+ font-size: 50px;
+ text-align: center;
+ background-color: aqua;
+ border-radius: 50px;
+ margin-top: 00px;
+}
+#Overall{
+    background-image:url(wp1846079.jpg);
+    height: 100vh;;
+    margin-top: -23px;
+}
+#box1{
+    font-size: 50px;
+    font-weight:600;
+    margin-top: 100px;
+    margin-bottom:1000px;
+    margin:auto;
+    text-align: center;
+    color: rgb(205, 10, 10);
+    background: transparent;
+    backdrop-filter: blur(15px);
+    width: 30%;
+    min-width: 250px;
+    border: 2px solid rgb(7, 213, 51);
+    position: relative;
+    top: 80px;
+}
+#box{
+    background-color: rgba(255, 255, 255, 0.958);
+    height: 450px;
+    width: 35%;
+    position: relative;
+    margin: auto;  
+    /* left: 495px; */
+    top: 100px;
+    border-radius: 20px;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 10);
+    border: 3px solid rgb(76, 124, 255);
+    min-width: 320px;
+}
+#UN{
+    margin: auto;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+
+}
+#Pwd{
+    margin: 30px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+#n1{
+    background-color: rgb(146, 253, 253);
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    top: px;
+    left:10p;
+}
+#n2{
+    background-color: rgb(146, 253, 253);
+    text-align: center;
+    font-size: 15px;
+}
+#Login{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#CPwd{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 700;
+    color: white;}
+

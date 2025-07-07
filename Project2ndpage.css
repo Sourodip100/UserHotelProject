@@ -1,0 +1,542 @@
+#head{
+    background-color: rgb(123, 123, 249);
+    height: 150px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(73, 11, 131);
+}
+#div1{
+    height: 40px;
+    /* width: 90%; */
+    width: 1330px;
+    background-color: rgb(133, 54, 206);
+    border-radius: 20px;
+    text-align: center;
+    position: fixed;
+    top: 110px;
+    left: 94px;
+    z-index: 1;
+}
+.l1{
+    color: white;
+    background-color: rgb(183, 183, 237); 
+    border-radius: 10px; 
+    font-size: 15px;
+    width: 90px;
+    height: 20px;
+    position:absolute;
+    top: 10px;
+    left: 120px;
+    transition: 0.5s;
+}
+.l2{
+    color: white;
+    background-color: rgb(183, 183, 237); 
+    border-radius: 10px; 
+    font-size: 15px;
+    width: 90px;
+    height: 20px;
+    position:absolute;
+    top: 10px;
+    left: 270px;
+    transition: 0.5s;
+}
+.l3{
+    color: white;
+    background-color: rgb(183, 183, 237); 
+    border-radius: 10px; 
+    font-size: 15px;
+    width: 90px;
+    height: 20px;
+    position:absolute;
+    top: 10px;
+    left: 420px;
+    transition: 0.5s;
+}
+.l4{
+    color: white;
+    background-color: rgb(183, 183, 237); 
+    border-radius: 10px; 
+    font-size: 15px;
+    width: 90px;
+    height: 20px;
+    position:absolute;
+    top: 10px;
+    left: 570px;
+    transition: 0.5s;
+}
+.l5{
+    color: white;
+    background-color: rgb(183, 183, 237); 
+    border-radius: 10px; 
+    font-size: 15px;
+    width: 90px;
+    height: 20px;
+    position:absolute;
+    top: 10px;
+    left: 720px;
+    transition: 0.5s;
+}
+.l6{
+    color: white;
+    background-color: rgb(183, 183, 237); 
+    border-radius: 10px; 
+    font-size: 15px;
+    width: 90px;
+    height: 20px;
+    position:absolute;
+    top: 10px;
+    left: 870px;
+    transition: 0.5s;
+}
+.l7{
+    color: white;
+    background-color: rgb(183, 183, 237); 
+    border-radius: 10px; 
+    font-size: 15px;
+    width: 90px;
+    height: 20px;
+    position:absolute;
+    top: 10px;
+    left: 1020px;
+    transition: 0.5s;
+}
+.l1:hover{
+    background-color: greenyellow;
+    transform: scale(1.1);
+}
+.l2:hover{
+    background-color: greenyellow;
+    transform: scale(1.1);
+}
+.l3:hover{
+    background-color: greenyellow;
+    transform: scale(1.1);
+}
+.l4:hover{
+    background-color: greenyellow;
+    transform: scale(1.1);
+}
+.l5:hover{
+    background-color: greenyellow;
+    transform: scale(1.1);
+}
+.l6:hover{
+    background-color: greenyellow;
+    transform: scale(1.1);
+}
+
+#sbar{
+    width: 150px; 
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+#sbutton{
+    position: absolute;
+    left: 140px;
+    top: 0px;
+    border-radius: 10px;
+    background-color:rgb(132, 0, 255);
+    color: white;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    transition: 0.5s;
+}
+#sbar:hover, #sbutton:hover{
+    transform: scale(1.1);
+}
+
+#main{
+    background-color: rgb(255, 255, 255);
+    width:99%;
+    height: 2000px;
+    position: absolute;
+    top: 180px;
+    border: 3px solid red;
+}
+.pic_block{
+    display: inline-block;
+    overflow-x: auto;
+    white-space: nowrap;
+    border: 3px solid blue;
+    width: 98%;
+    height: 1300px;
+    margin: 9px;
+}
+#pic1{
+    position: absolute;
+    border: 3px solid rgb(198, 33, 239);
+    margin: 10px;
+    left: 10px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: px;
+    font-size: 20px;
+    color: rgb(104, 11, 191);
+    transition: 0.5s;
+}
+#pic2{
+    position: absolute;
+    left: 220px;
+    margin: 10px;
+    border: 3px solid rgb(198, 33, 239);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: px;
+    font-size: 20px;
+    color: rgb(104, 11, 191);
+    transition: 0.5s;
+}
+#pic3{
+    position: absolute;
+    left: 430px;
+    margin: 10px;
+    border: 3px solid rgb(198, 33, 239);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: px;
+    font-size: 20px;
+    color: rgb(104, 11, 191);
+    transition: 0.5s;
+}
+#pic4{
+    position: absolute;
+    left: 640px;
+    margin: 10px;
+    border: 3px solid rgb(198, 33, 239);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: px;
+    font-size: 20px;
+    color: rgb(104, 11, 191);
+    transition: 0.5s;
+}
+#pic5{
+    position: absolute;
+    left: 850px;
+    margin: 10px;
+    border: 3px solid rgb(198, 33, 239);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: px;
+    font-size: 20px;
+    color: rgb(104, 11, 191);
+    transition: 0.5s;
+}
+#pic6{
+    position: absolute;
+    left: 1060px;
+    margin: 10px;
+    border: 3px solid rgb(198, 33, 239);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: px;
+    font-size: 20px;
+    color: rgb(104, 11, 191);
+    transition: 0.5s;
+}
+#pic7{
+    position: absolute;
+    left: 1270px;
+    margin: 10px;
+    border: 3px solid rgb(198, 33, 239);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: px;
+    font-size: 20px;
+    color: rgb(104, 11, 191);
+    transition: 0.5s;
+}
+#pic8{
+    position: absolute;
+    left: 10px;
+    top: 900px;
+    margin: 10px;
+    border: 3px solid rgb(198, 33, 239);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: px;
+    font-size: 20px;
+    color: rgb(104, 11, 191);
+    transition: 0.5s;
+}
+#pic9{
+    position: absolute;
+    left: 220px;
+    top: 900px;
+    margin: 10px;
+    border: 3px solid rgb(198, 33, 239);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: px;
+    font-size: 20px;
+    color: rgb(104, 11, 191);
+    transition: 0.5s;
+}
+#pic10{
+    position: absolute;
+    left: 430px;
+    top: 900px;
+    margin: 10px;
+    border: 3px solid rgb(198, 33, 239);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: px;
+    font-size: 20px;
+    color: rgb(104, 11, 191);
+    transition: 0.5s;
+}
+#pic11{
+    position: absolute;
+    left: 640px;
+    top: 900px;
+    margin: 10px;
+    border: 3px solid rgb(198, 33, 239);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: px;
+    font-size: 20px;
+    color: rgb(104, 11, 191);
+    transition: 0.5s;
+}
+#pic12{
+    position: absolute;
+    left: 850px;
+    top: 900px;
+    margin: 10px;
+    border: 3px solid rgb(198, 33, 239);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: px;
+    font-size: 20px;
+    color: rgb(104, 11, 191);
+    transition: 0.5s;
+}
+#pic13{
+    position: absolute;
+    left: 1060px;
+    top: 900px;
+    margin: 10px;
+    border: 3px solid rgb(198, 33, 239);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: px;
+    font-size: 20px;
+    color: rgb(104, 11, 191);
+    transition: 0.5s;
+}
+#pic14{
+    position: absolute;
+    left: 1270px;
+    top: 900px;
+    margin: 10px;
+    border: 3px solid rgb(198, 33, 239);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: px;
+    font-size: 20px;
+    color: rgb(104, 11, 191);
+    transition: 0.5s;
+}
+#pic15{
+    position: absolute;
+    border: 3px solid rgb(198, 33, 239);
+    margin: 10px;
+    left: 10px;
+    top: 1300px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: px;
+    font-size: 20px;
+    color: rgb(104, 11, 191);
+    transition: 0.5s;
+}
+#pic16{
+    position: absolute;
+    left: 220px;
+    top: 1300px;
+    margin: 10px;
+    border: 3px solid rgb(198, 33, 239);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: px;
+    font-size: 20px;
+    color: rgb(104, 11, 191);
+    transition: 0.5s;
+}
+#pic17{
+    position: absolute;
+    left: 430px;
+    top: 1300px;
+    margin: 10px;
+    border: 3px solid rgb(198, 33, 239);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: px;
+    font-size: 20px;
+    color: rgb(104, 11, 191);
+    transition: 0.5s;
+}
+#pic18{
+    position: absolute;
+    left: 640px;
+    top: 1300px;
+    margin: 10px;
+    border: 3px solid rgb(198, 33, 239);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: px;
+    font-size: 20px;
+    color: rgb(104, 11, 191);
+    transition: 0.5s;
+}
+#pic19{
+    position: absolute;
+    left: 850px;
+    top: 1300px;
+    margin: 10px;
+    border: 3px solid rgb(198, 33, 239);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: px;
+    font-size: 20px;
+    color: rgb(104, 11, 191);
+    transition: 0.5s;
+}
+#pic20{
+    position: absolute;
+    left: 1060px;
+    top: 1300px;
+    margin: 10px;
+    border: 3px solid rgb(198, 33, 239);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: px;
+    font-size: 20px;
+    color: rgb(104, 11, 191);
+    transition: 0.5s;
+    
+}
+#pic21{
+    position: absolute;
+    left: 1270px;
+    top: 1300px;
+    margin: 10px;
+    border: 3px solid rgb(198, 33, 239);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: px;
+    font-size: 20px;
+    color: rgb(104, 11, 191);
+    transition: 0.5s;
+}
+#state{
+    font-size: 30px;
+    background-color: hwb(180 68% 0%);
+    height: 90px;
+    border: 3px solid blue ;
+    margin: 10px;
+    color: rgb(83, 2, 158);
+    padding: 20px;
+
+}
+#date{
+    position: relative;
+    
+    top: -35px;
+    margin-left: 720px;
+}
+.marquee { 
+    overflow:visible;
+    position: relative;
+    animation: MarqueeLeft linear 0s alternate;
+    gap: -1rem;
+}
+#pic1:hover, #pic2:hover, #pic3:hover, #pic4:hover, #pic5:hover, #pic6:hover, #pic7:hover, #pic8:hover, #pic9:hover, #pic10:hover, #pic11:hover, #pic12:hover, #pic13:hover, #pic14:hover, #pic15:hover, #pic16:hover, #pic17:hover, #pic18:hover, #pic19:hover, #pic20:hover, #pic21:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+    
+}
+/* #pic2:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+    
+}
+#pic3:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+    
+}
+#pic4:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+    
+}
+#pic5:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+    
+}
+#pic6:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+    
+}
+#pic7:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+    
+}
+#pic8:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+    
+}
+#pic9:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+    
+}
+#pic10:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+    
+}
+#pic11:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+    
+}
+#pic12:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+    
+}
+#pic13:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+    
+}
+#pic14:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+    
+}
+#pic15:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+    
+}
+#pic16:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+    
+}
+#pic17:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+    
+}
+#pic18:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+    
+}
+#pic19:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+    
+}
+#pic20:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+    
+}
+#pic21:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+    
+} */

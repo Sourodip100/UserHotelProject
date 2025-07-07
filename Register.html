@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="Loginpage.css">
+</head>
+<body>
+<h1 id="h1">UserHotel</h1>
+
+<script>
+function mydata()
+{
+var a=document.getElementById("n1").value;
+var b=document.getElementById("n2").value;
+if(a==""||b=="")
+{
+alert("data enrty is must");
+return false;
+}
+else { true;
+}
+}
+</script>
+<form onsubmit="return mydata()"action="Project2ndpage.html">
+<div id="Overall">
+<div id="p"> Welcome </div>
+<div id="box">
+<h4 style="font-size: 30px; color: rgb(135, 7, 255); text-align: center;"> Register </h4>
+<div id="UN"> 
+Username:: <input type="text" id="n1" placeholder="Type Username">
+ <br></div> 
+<div id="Pwd">
+Password:: <input type="password" id="n2" placeholder="Type Password"> </div>
+
+<div id="CPwd">
+    Confirm Password:: <input type="password" id="n2" placeholder="Type Password" > </div>
+    
+<div id="Login" ><input type="submit" value="Sign-up" style="background-color: rgb(119, 4, 225); height: 30px; width: 100px; font-size: 20px; color: white; border-radius: 5px;"></div>
+<p style="color: white; font-size: 20px; text-align: center;"> Already have an Account ? <a href="index.html" style="text-decoration: none; color: aqua;">  Login</a></p> 
+</div>
+</div>
+</form>
+
+
+</body>
+</html>
